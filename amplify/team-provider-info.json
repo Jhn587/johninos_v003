@@ -10,6 +10,11 @@
       "StackName": "amplify-johninosv003-dev-110824",
       "StackId": "arn:aws:cloudformation:us-east-1:636786453112:stack/amplify-johninosv003-dev-110824/8b7dc5f0-80ac-11ee-958a-0e336703d3b3",
       "AmplifyAppId": "d2fl0svo5a1wk9"
+    },
+    "categories": {
+      "api": {
+        "johninosv003": {}
+      }
     }
   }
 }
