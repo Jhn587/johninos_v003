@@ -1,0 +1,12 @@
+Create app in aws amplify on burn account
+Follow tutorial to setup a react project
+Create data model
+    Orders
+        OrderId
+        CustomerId
+        StoreId
+        OrderStatus
+        Order
+Setup webpage to post Orders
+Setup webpage to get Orders
+Setup backend to monitor dynamno db
