@@ -5,13 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Amplify } from 'aws-amplify';
 import awsExports from './aws-exports';
+import { ThemeProvider } from "@aws-amplify/ui-react";
+import { studioTheme } from './ui-components';
 
 Amplify.configure(awsExports);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ThemeProvider theme={studioTheme}>
       <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

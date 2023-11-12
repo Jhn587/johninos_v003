@@ -1,6 +1,60 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const createOrders = /* GraphQL */ `
+  mutation CreateOrders(
+    $input: CreateOrdersInput!
+    $condition: ModelOrdersConditionInput
+  ) {
+    createOrders(input: $input, condition: $condition) {
+      id
+      OrderId
+      CustomerId
+      StoreId
+      OrderStatus
+      Order
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const updateOrders = /* GraphQL */ `
+  mutation UpdateOrders(
+    $input: UpdateOrdersInput!
+    $condition: ModelOrdersConditionInput
+  ) {
+    updateOrders(input: $input, condition: $condition) {
+      id
+      OrderId
+      CustomerId
+      StoreId
+      OrderStatus
+      Order
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
+export const deleteOrders = /* GraphQL */ `
+  mutation DeleteOrders(
+    $input: DeleteOrdersInput!
+    $condition: ModelOrdersConditionInput
+  ) {
+    deleteOrders(input: $input, condition: $condition) {
+      id
+      OrderId
+      CustomerId
+      StoreId
+      OrderStatus
+      Order
+      createdAt
+      updatedAt
+      __typename
+    }
+  }
+`;
 export const createTodo = /* GraphQL */ `
   mutation CreateTodo(
     $input: CreateTodoInput!
