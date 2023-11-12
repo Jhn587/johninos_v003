@@ -1,7 +1,7 @@
 Done - Create app in aws amplify on burn account
 Done - Follow tutorial to setup a react project
 Done - website is available on line - https://main.d2fl0svo5a1wk9.amplifyapp.com/
-Create data model
+Done - Create data model
     Orders
         OrderId
         CustomerId
